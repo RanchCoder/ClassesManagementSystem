@@ -1,0 +1,85 @@
+.navbar-default {
+    background-color: #34495E;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif, bold;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #F9E79F;
+}
+
+
+body  {
+    background-image: url("images/1.jpg");
+    background-color: #cccccc;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #F9E79F;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #F9E79F;
+}
+
+.navbar-default .navbar-nav .navbar-right>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #F9E79F;
+}
+
+.panel-group .panel-primary .panel-heading {
+    font-family: Impact, Gadget, sans-serif;
+    background-color: #F5F5F5;
+    color: #FF6347;
+}
+
+.btn .btn-primary .btn-block {
+    background-color: #7FFFD4;
+}
+
+.carousel-inner .item img {
+    height: 400px;
+    width: 800px;
+}
+
+#quote img {
+    width: 175px;
+    height: px;
+}
+
+#quote2 img {
+    width: 175px;
+    height: px;
+}
+
+#quote h1 {
+    font-size: 25px;
+}
+
+#quote2 h1 {
+    font-size: 25px;
+}

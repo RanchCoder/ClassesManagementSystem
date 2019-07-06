@@ -1,0 +1,41 @@
+<%@page import="com.ProjectClassFiles.*,java.io.*,java.util.*"%>
+    
+		  <div class="row">
+  
+  <div class="col-sm-6">
+          
+		         <div class="container">
+
+             <h1>ADD Student</h1> <br /><br /><br /><br />
+
+
+		 <form  method="post" action="teacherAdd.jsp">
+		 <div class="form-group">
+		   <label for="id">Enter Id</label>
+		   <input type="number" name="id" id="id" class="form-control" required> 
+           </div>
+		   
+		   <div class="form-group">
+			<label  for="name">Enter Name</label>
+			<input type="text" name="name" pattern="[A-Za-z]{25}" title="must contain only characters" id="name" class="form-control" required>
+            </div>
+
+			 <div class="form-group">
+			<label  for="batchId"> ENTER BATCH ID</label>
+            <input type="number"  name="batchId" id="batchId" class="form-control" required>
+             </div>
+              
+			<input type="submit" value="add"  class="btn btn-primary btn-block">
+              
+		 </form>
+          </div>
+
+  
+  </div>
+  <div class="col-sm-3"></div>
+</div>
+		     
+        
+  </body>
+</html>
+

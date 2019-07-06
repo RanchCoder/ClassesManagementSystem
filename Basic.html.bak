@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>
+ 
+   Learn your Machine
+
+  </title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+ </head>
+
+ <body>
+  
+  <div class="container-fluid"> <!-- div of container -->
+  <div class="row"> <!-- div of row -->
+         
+		 <div class="col-md-1" id="image"> <!-- div of coloumn 1st row -->
+		 
+   	     <a href="Basic.html"><img src="images/58593.png" class="img-circle" width="95" height="75"></a>
+           
+		 </div><!-- end of div of image-->
+
+    
+           <div class="col-md-11">  <!-- div of 2nd coloumn of  1st row -->
+	          <nav class="navbar navbar-default"> <!-- nav tag -->
+              <a class="navbar-brand" href="Basic.html">SINGH'S INSTITUTE</a>
+           
+			      <ul class="nav navbar-nav">
+	              
+				     <li class="nav-item active"><a href="Basic.html"> <span class="glyphicon glyphicon-home"></span> &nbsp; HOME</a></li>
+                     <li class="nav-item"><a href="#">COURSE</a></li>
+				     <li class="nav-item"><a href="#">CONTACT</a></li>
+				     <li class="nav-item"><a href="#">STAFF</a></li>
+                   
+			       </ul> <!-- end of menubar list -->
+                      
+					   <ul class="nav navbar-nav navbar-right">
+				    <li><a href="Signup.html"><span class="glyphicon glyphicon-log-in"></span>&nbsp;SIGN UP</a></li>
+				  </ul>  <!-- end of SignUp right of navbar -->
+
+               
+			      <ul class="nav navbar-nav navbar-right">
+				    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>&nbsp; LOGIN</a></li>
+				  </ul>  <!-- end of login right of navbar -->
+
+               </nav> <!-- end of nav tag -->
+
+                
+
+           </div> <!-- end of div of 2 coloumn of 1st row -->
+	</div>          <!-- end of div  row -->
+
+
+<!-- ********************************************IMAGE SLIDER **************************************************************** -->
+             
+			  <div id="TitleSlider" class="container-fluid">
+			    
+				 <h1> We Provide Training in...<span class="glyphicon glyphicon-hand-down"></span></h1> 
+			      
+
+			  </div>
+
+              <div id="SliderImage" class="carousel slide" data-ride="carousel"> <!-- div of carousel -->
+                <ol class="carousel-indicators">
+				      <li data-target="#SliderImage" data-slide-to="0" class="active"></li>
+                      <li data-target="#SliderImage" data-slide-to="1"></li>
+                      <li data-target="#SliderImage" data-slide="2" ></li>
+                      <li data-target="#SliderImage" data-slide="3" ></li>
+					  <li data-target="#SliderImage" data-slide="4" ></li>
+                      <li data-target="#SliderImage" data-slide="5" ></li> 
+                      <li data-target="#SliderImage" data-slide="6" ></li>
+				</ol>  
+           
+				   <!-- Wrapper for slides -->
+           <div class="row">
+						   <div class="col-md-2"> <!--column of 2 rows -->
+                                 
+								  
+						
+
+						   </div> <!--end of 1st column of 2 rows -->
+					
+						
+						  <div class="col-md-8">
+                     
+					           <div class="carousel-inner">
+                                    <div class="item active">
+					                	<img src="images/html.jpg" class="img-responsive">
+									  <div class="carousel-caption">
+                                             <h3>HTML</h3>
+                                               <p>Demantle the basic structure of website with the help of html</p>
+                                      </div>
+					                </div> <!-- end of div of 1st item -->
+                                    
+									 <div class="item">
+					                	<img src="images/Java-Programmers.png" class="img-responsive">
+											 <div class="carousel-caption">
+                                               <h3>JAVA</h3>
+                                                <p>Core and Advance JAVA training.</p>
+                                              </div>
+					                 </div> <!-- end of div of 2nd item -->
+                                  
+                                       <div class="item">
+					                	 <img src="images/CSS.jpg" class="img-responsive">
+										  <div class="carousel-caption">
+                                             <h3>CSS3</h3>
+                                               <p>Learn how to style your website via CSS3</p>
+                                          </div>   
+									
+
+					                   </div> <!-- end of div of 3rd item -->
+                                       
+									    
+								       <div class="item">
+					                	<img src="images/php.jpg" class="img-responsive">
+										 <div class="carousel-caption">
+										<h3>PHP</h3>
+                                               <p>Learn one of the leading language in Server-side scripting.</p>
+                                         </div>
+					                   </div> <!-- end of div of 4th item -->
+                                       
+									    
+                                       <div class="item">
+					                	<img src="images/python.jpg" class="img-responsive">
+										 <div class="carousel-caption">
+										       <h3>Python</h3>
+                                               <p>The magical Snake of programming language..</p>
+                                          </div>
+					                   </div> <!-- end of div of 5th item -->
+                                       
+                                       <div class="item">
+					                    	<img src="images/script.jpg" class="img-responsive">
+								    	 <div class="carousel-caption">
+                                          <h3>JAVASCRIPT</h3>
+                                               <p>No web-development training is complete without javaScript</p>
+                                          </div>
+
+					                   </div> <!-- end of div of 6th item -->
+									    					 
+								    
+
+                                    <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#SliderImage" data-slide="prev">
+                                   <span class="glyphicon glyphicon-chevron-left"></span>
+                                   <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#SliderImage" data-slide="next">
+                                   <span class="glyphicon glyphicon-chevron-right"></span>
+                                   <span class="sr-only">Next</span>
+                                </a>
+                                    <!--  END OF Left and right controls -->
+
+					           </div> <!-- end of carousel inner div-->
+							 
+                         </div>               
+					 
+
+					  
+
+						
+                     </div><!--end of div of the row -->
+                    
+					 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!IMAGE STARTS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+					
+					
+
+
+
+              </div> <!-- end div of carousel -->
+
+<!-- ******************************************** END OF IMAGE SLIDER **************************************************************** -->
+
+
+    <div id="quote2" > <!-- div of quote of bill gates-->
+	                      
+						   <div class="row">  <!-- START OF THE ROW OF THE QUOTES SECTION -->
+					     
+						      <div class="col-md-2">  <!-- start OF DIV OF COLOUMN IN WHICH BILL GATES IMAGE IS PRESENT  -->
+						     <img src="images/idol2.jpg" class="img-circle">
+						       
+							    </div> <!-- END OF DIV OF COLOUMN IN WHICH BILL GATES IMAGE IS PRESENT  -->
+                               
+							    <div class="col-md-10">  <!-- start OF DIV OF COLOUMN IN WHICH BILL GATES quote IS PRESENT  -->
+					         <blockquote class="blockquote">
+							  
+							    <br/> <br/><br/><br/><br/><br/>
+
+                             <h1>"learning to code sketchs your mind"</h1>
+
+                                  
+						     <footer> Bill Gates</footer>
+						     </blockquote>
+                                </div>  <!-- end OF DIV OF COLOUMN IN WHICH BILL GATES quote IS PRESENT  -->
+                           
+                          </div> <!-- END OF THE ROW OF THE QUOTES SECTION -->
+						</div> <!-- end of quote div bill gates -->
+                      
+                         
+						 
+						  <div id="quote" > <!-- div of quote of steve jobs -->
+					     
+						              <div class="row">  <!-- START OF THE ROW OF THE QUOTES SECTION -->   
+									     <div class="col-md-2">
+										  </div>
+						                  <div class="col-md-8">  <!-- start OF DIV OF COLOUMN IN WHICH STEVE JOBS quote IS PRESENT  -->   
+					                       <blockquote class="blockquote">
+										    <br/> <br/><br/>
+                                             <h1> "Everybody in this country should learn to program a computer, because it teaches you how to think"   </h1>
+
+                                  
+						                     <footer> Steve Jobs</footer>
+
+						                   </blockquote>
+                                           </div>  <!-- end OF DIV OF COLOUMN IN WHICH STEVE JOBS quote IS PRESENT  -->
+							
+                                         <div class="col-md-2">  <!-- start OF DIV OF COLOUMN IN WHICH STEVE JOBS IMAGE IS PRESENT  -->
+
+							                 <img src="images/idol.jpg" class="img-circle">
+
+										     </div> <!-- END OF DIV OF COLOUMN IN WHICH STEVE JOBS IMAGE IS PRESENT  -->
+						      </div> <!-- end of quote div steve jobs -->
+ 
+                              </div> <!-- END OF THE ROW OF THE QUOTES SECTION -->  
+
+
+ <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!IMAGE STARTS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+ </body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Document</title>
+ </head>
+ <body>
+            <form method="post" action="" onsubmit="return validate()">
+       <p>Resetting your new Password</p>
+	   <input type="text" name="first" id="first" required placeholder="enter new password"><br/>
+	   <input type="text" name="confirm" id="confirm" required placeholder="re enter the same password">
+	   <input type="submit" value="confirm" onclick="validate()">
+	   <p id="iam"><p>
+       </form>
+ </body>
+  
+     <script>
+          function validate(){
+           var x1 = document.getElementById("first");
+            var x2 = document.getElementById("confirm");
+		    var result = x1.localeCompare(x2);
+
+			if(result == 0){
+			   alert("Password does not matches");
+			    return true;
+				document.getElementById("iam").innerHTML = result;
+			}
+			else{
+				alert("Password does not matches");
+			   return false;
+			   document.getElementById("iam").innerHTML = result;
+			}
+		  }
+
+
+  </script>
+
+
+
+
+</html>
